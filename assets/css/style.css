@@ -1,0 +1,358 @@
+
+html{height:100%;}
+
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	
+	font-family:"Georgia", "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 150%; 
+
+}
+
+
+
+header {
+	width:100%;
+	background:#ffffff;
+	padding:33px;
+	border-bottom: 2px solid #dddddd;
+	float:left;
+	
+}
+
+#emptyBox{
+	background:#ffffff;
+	width:470px;
+	height:65px;
+	padding:0;
+	float:left;
+	
+}
+
+#navBar{
+	height:61px;
+	width:270px;
+	float:left;
+	text-align:center;
+	color:#777777;
+	background-color: #ffffff;
+	padding:5px 0px 0px 0px;
+	
+}
+
+h2{	
+	height:26px;
+	width:220px;
+	margin:0 auto;
+	float:left;
+	
+	background: #4aaaa5;
+	color: white;
+	margin:0 auto;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+
+	border-bottom: 1px solid #dddddd;
+
+}
+
+h3{
+	color:#4aaaa5;
+	font-size: 20px;
+}
+
+h5{	width:23%;
+	margin:0 auto;
+	float:left;
+	
+	background: ;
+	color: black;
+	margin:0 auto;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+p, ul, a{
+
+	color:#777777;
+}
+
+
+a {
+	text-decoration: none;
+	
+}
+
+#p1{
+	margin-top: 0;
+
+}
+
+.container {
+	width:960px;
+	height:100%;
+	margin:0 auto 68px auto;
+	
+	position:relative;
+	bottom:68px;
+}
+
+#main-bio,
+#contact-info,
+#bio-image{
+	float: left;
+}
+
+#main-bio{
+	background:white;
+	clear:both;
+	width:607px;
+	height:500px;
+	padding:20px;
+	margin:40px 20px 40px 0px;
+	border:1px solid #dddddd;
+}
+
+#paraContainer{
+	border-top: 1px solid #dddddd;
+	padding:40px 0px 20px 0;
+}
+
+#contact-info{
+	background:white;
+	width:187px;
+	text-align: center;
+	
+	padding: 20px 40px 25px 40px;
+	margin:40px 0px 40px 20px;
+	border:1px solid #dddddd;
+}
+
+#logoContainer{
+	border-top: 1px solid #dddddd;
+	padding-top:20px;
+}
+
+#bio-image{
+	margin: 0px 20px 20px 0px;
+	width:200px;
+	height:200px;
+}
+
+
+footer {
+	
+	width:100%;
+	height:75px;
+
+	background:#666666;
+	border-top: 5px solid #4aaaa5;
+	
+	padding-top: 45px;
+	text-align: center;
+	color:white;
+	font-size: 14px;
+
+	clear:both;
+	
+}
+
+/* CSS FOR CONTACT PAGE */
+
+#textfieldContainer{
+	border-top: 1px solid #dddddd;
+	padding:30px 0px 20px 0;
+}
+
+
+input {
+	margin-bottom: 10px;}
+	
+#input1, #input2 {
+	width: 590px; 
+	height:25px;
+	font-size: 12px;
+	padding-left:10px;
+}
+
+
+#input3{
+	 style="width: 600px; 
+	 height:180px;
+	}
+
+
+
+
+/* ---------------------------------------------- */
+
+/*  MEDIA QUERIES  */
+
+@media screen and (max-width:980px) {
+	
+		
+		.container{
+			width:100%;
+			max-width:760px;}
+
+		#main-bio{
+			background:white;
+			clear:both;
+			width:400px;
+			height:975px;
+			padding:20px;
+			margin:40px 20px 40px 0px;
+			border:1px solid #dddddd;
+}
+
+			#bio-image{
+				margin: 0px 20px 20px 0px;
+				width:400px;
+				height:400px;
+}
+
+			#emptyBox{
+				background:#ffffff;
+				width:255px;
+}
+
+			#input1, #input2 {
+				width: 383px; 
+				height:25px;
+				font-size: 12px;
+				padding-left:10px;
+			}
+
+
+			#input3{
+				 width:393px; 
+				 height:180px;
+				}
+			
+
+/*  NEED TO CHANGE HEADER SIZE WHEN TURNING RED  
+
+	AND CONNECT ME BOX SIZE AND PLACEMENT  */
+
+@media screen and (max-width:768px) {
+	
+		
+		.container{
+			
+			width: 100%;
+			max-width: 700px;
+			margin: 0 auto;
+			clear: both;
+}
+
+		#main-bio{
+			background:white;
+			clear:both;
+			width:650px;
+			height:675px;
+			padding:20px;
+			margin:40px 20px 40px 0px;
+			border:1px solid #dddddd;
+}
+
+			#navBar{
+				float:right;
+			}
+
+			#emptyBox{
+				background:#ffffff;
+				width:0px;
+
+}
+
+			#contact-info{
+				
+				width:650px;
+				text-align: left;
+				
+				padding: 20px 20px 25px 20px;
+				margin:40px 0px 40px 0px;
+				
+			}
+
+/*  NEED TO CHANGE HEADER SIZE WHEN TURNING GREEN  
+
+	AND CONNECT ME BOX SIZE AND PLACEMENT  */
+
+
+@media screen and (max-width:640px) {
+	
+		
+		.container{
+			
+			width: 100%;
+			max-width: 640px;
+			margin: 0 auto;
+			clear: both;
+}
+
+		#main-bio{
+			background:white;
+			clear:both;
+			width:500px;
+			height:1000px;
+			padding:20px;
+			margin:40px 20px 40px 40px;
+			border:1px solid #dddddd;
+}
+
+			#bio-image{
+				margin: 0px 20px 20px 0px;
+				width:500px;
+				height:550px;
+			}
+
+			#navBar{
+				float:right;
+			}
+
+			#emptyBox{
+				background:#ffffff;
+				width:0px;
+
+}
+
+			#contact-info{
+				
+				width:500px;
+				text-align: left;
+				
+				padding: 20px 20px 25px 20px;
+				margin:40px 20px 40px 40px;
+				
+			}
+
+
+			h2{	
+				
+				width:640px;
+				position:relative;
+				
+
+}
+
+			#navBar{
+				
+				width:640px;
+				position:absolute;
+				top:68px;
+			}
+
+
+
+
